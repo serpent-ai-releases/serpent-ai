@@ -1,0 +1,147 @@
+END USER LICENSE AGREEMENT
+for the program «Serpent AI», version 1.2
+
+INFORMATIONAL TRANSLATION. The Russian text of this Agreement (LICENSE.txt) is the legally binding version;
+in case of any discrepancy the Russian text prevails.
+
+Copyright holder: Vladimir Ostryakov (the «Copyright Holder»).
+Contact: serpentai.ostgroup@gmail.com
+
+By installing, copying to your computer or using the program «Serpent AI» (the «Program»), you (the «User»)
+confirm that you have read this Agreement and accept its terms. If you do not agree, do not install or use
+the Program.
+
+
+1. TERMS
+
+1.1. Program — the computer program «Serpent AI»: source and object code, interface, reactor templates and
+     models, knowledge base, documentation and other materials created by the Copyright Holder and supplied
+     with it.
+1.2. Serpent 2 («Serpent») — the Monte Carlo neutron and photon transport code developed by VTT Technical
+     Research Centre of Finland Ltd («VTT») and distributed by VTT, the NEA Data Bank (OECD/NEA) and RSICC
+     under their own licence agreements.
+1.3. Nuclear data — evaluated and processed nuclear data libraries (ENDF/B, JEFF, JENDL etc., ACE files,
+     xsdata, decay and fission yield libraries) distributed by their owners and holders.
+1.4. Licence key — an electronic key issued by the Copyright Holder that allows the Program to be used on
+     a specific computer for a specific period.
+
+
+2. SUBJECT OF THE AGREEMENT
+
+2.1. The Copyright Holder grants the User a simple (non-exclusive), non-transferable licence to use the
+     Program within the limits of this Agreement and the licence key: installation on the computer named
+     when the key was issued, running it and using it for its intended purpose.
+2.2. All exclusive rights to the Program belong to the Copyright Holder. This Agreement does not transfer
+     any exclusive rights to the Program or its parts to the User.
+2.3. Rights to the Program are protected by the law of the Russian Federation (Part Four of the Civil Code)
+     and international treaties.
+
+
+3. LICENCE KEY
+
+3.1. The Program needs a licence key. The key is issued by the Copyright Holder on request to
+     serpentai.ostgroup@gmail.com. Give your name (organisation) and the computer code shown in the
+     Program's activation window («Copy» button).
+3.2. The key is issued personally to the User for one computer and for the stated period. The key owner's
+     name is shown in the Program and in exported files.
+3.3. It is forbidden to pass the key to third parties, publish it, modify, guess or forge keys, or to
+     bypass, disable or change the key check.
+3.4. The terms of issue (free or paid, period, number of computers) are set by the Copyright Holder when
+     the key is issued.
+
+
+4. RELATION TO SERPENT 2 AND NUCLEAR DATA
+
+4.1. The Program is an independent shell (interface). It prepares text input files, starts the Serpent
+     executable installed by the User as a separate operating-system process and reads the text result
+     files it creates.
+4.2. The Program does NOT CONTAIN and does NOT DISTRIBUTE: Serpent source or executable code, its parts,
+     modifications or derivatives; Serpent documentation (manuals, Serpent Wiki); nuclear data. The Program
+     does not embed Serpent, does not modify it and does not bypass any of its restrictions.
+4.3. For calculations the User obtains Serpent and nuclear data from their owners and distributors (VTT,
+     NEA Data Bank, RSICC etc.) under the User's own valid licence and undertakes to follow its terms,
+     including restrictions on users, computers, transfer to third parties and export control. The Program
+     does not and cannot grant the User any rights to Serpent or nuclear data.
+4.4. The User alone is responsible for making sure that running Serpent from the Program, including on a
+     remote server («Remote server» function), is allowed by the User's Serpent licence.
+4.5. The function «Connect Serpent help» (Settings → Serpent) only converts for searching a file that the
+     User has saved from a source to which the User has lawful access; such a file is kept only on the
+     User's computer and is not part of the distribution.
+4.6. The Program is not affiliated with, endorsed or supported by VTT, the NEA Data Bank or RSICC. The name
+     «Serpent» belongs to VTT and is used only to indicate which code the Program is compatible with.
+     Questions about Serpent itself (licence, code errors, nuclear data) should be addressed to its owners,
+     not to the Copyright Holder of the Program.
+4.7. Reactor names (VVER, RBMK, BN, BREST, PWR, CANDU, HTR-10 etc.) and benchmark names (ICSBEP etc.) are
+     used only to denote types of facilities and problems. Library models are simplified educational models
+     based on open publications, not design documentation.
+
+
+5. RESTRICTIONS
+
+5.1. Without the written consent of the Copyright Holder the User may not:
+     a) copy the Program, except installation on the computer for which the key was issued and a backup copy;
+     b) distribute, sell, rent out or publish the Program or its parts;
+     c) modify, adapt or translate the Program or create derivative programs, except where expressly allowed
+        by law;
+     d) decompile or disassemble the Program or reverse-engineer its technology, except where expressly
+        allowed by Article 1280 of the Civil Code of the Russian Federation;
+     e) remove or change information about the copyright holder, the texts of this Agreement and notices.
+5.2. Input files, tables, reports and plots created by the User with the Program may be used at the User's
+     discretion. Fragments of the Program's templates and models included in them may be used in the User's
+     own calculations and publications with a reference to the Program.
+
+
+6. PURPOSE AND LIMITATION OF LIABILITY
+
+6.1. The Program is intended for educational, research and scoping calculations.
+6.2. Calculation results, library models, neural-network predictions and language-model answers are NOT a
+     nuclear or radiation safety justification and must not be used, without independent verification and
+     validation, for the design, licensing, construction or operation of nuclear facilities, handling of
+     nuclear materials or protection of personnel.
+6.3. The Program is provided «AS IS». The Copyright Holder does not guarantee that it is free of errors, fit
+     for a particular purpose or compatible with any versions of Serpent, data libraries or operating systems.
+6.4. To the extent permitted by law, the Copyright Holder is not liable for direct or indirect damages, lost
+     profits, data loss or other consequences of using or being unable to use the Program and the results,
+     nor for the User's violation of the Serpent and nuclear data licences.
+6.5. The User checks input files before running them (the Program has a model check window for this) and is
+     responsible for conclusions drawn from the calculations.
+
+
+7. USER DATA
+
+7.1. The Program runs on the User's computer. Input files, results, run and chat history are kept in the
+     Program folder and are not sent to the Copyright Holder.
+7.2. To obtain a key the User gives the Copyright Holder a name (organisation), e-mail address and computer
+     code (an anonymous hash of hardware parameters). These data are used only to issue the key and to
+     contact the User.
+7.3. Data are passed to third parties only through actions the User enables: requests to a language model
+     chosen by the User (if an external provider is selected), notifications and reports (e-mail, Telegram)
+     and runs on a remote server named by the User. The User is responsible for the admissibility of such
+     transfer, including information that is confidential or restricted.
+
+
+8. SUPPORT, ERRORS AND IMPROVEMENTS
+
+8.1. Error reports, questions, suggestions and orders for improvements: serpentai.ostgroup@gmail.com.
+     Describe the steps that led to the error, attach the chat request and the errors.log file from the
+     Program folder (and the input file if possible).
+8.2. The Copyright Holder is not obliged to provide support or release updates unless agreed separately.
+     Custom improvements are made under a separate agreement.
+
+
+9. TERM AND TERMINATION
+
+9.1. The Agreement is valid from the start of use of the Program for the validity period of the key.
+9.2. If the terms are violated the User's rights terminate automatically; the User must stop using the
+     Program and delete it.
+
+
+10. OTHER TERMS
+
+10.1. This Agreement is governed by the law of the Russian Federation. Disputes are settled by negotiation
+      and, failing agreement, in court at the location of the Copyright Holder.
+10.2. The Copyright Holder may change the Agreement; a new edition is supplied with a new version of the
+      Program.
+10.3. Information about third-party software and its licences is in THIRD_PARTY_NOTICES.txt.
+
+Copyright holder contact: serpentai.ostgroup@gmail.com
